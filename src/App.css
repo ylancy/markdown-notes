@@ -45,6 +45,7 @@ body {
   color: white;
   border-radius: 3px;
   border: none;
+  font-size: 1.4rem;
 }
 
 .selected-note {
@@ -65,6 +66,11 @@ body {
   cursor: pointer;
 }
 
+.title h4 {
+  font-size: medium;
+  font-weight: 500;
+}
+
 .no-notes {
   width: 100%;
   height: 100vh;
@@ -82,6 +88,11 @@ body {
   color: white;
   border-radius: 3px;
   padding: 1rem;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .icon-trash {
@@ -102,4 +113,11 @@ body {
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
   margin-top: 4px
+}
+
+.editor {
+  width: 80%;
+  height: 100vh;
+  font-size: 1.5rem;
+  padding: auto;
 }
